@@ -1,0 +1,21 @@
+{
+  "name": "shophia.loc",
+  "authors": [
+    "ViktorZhuk <mr.dobriyzhuk@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "slick-carousel": "^1.8.1"
+  }
+}
