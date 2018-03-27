@@ -602,6 +602,9 @@ button:hover {
   max-width: 260px;
   padding: 30px 0;
 }
+.cards {
+  min-height: 30px;
+}
 .cards img {
   margin-right: 20px;
 }
@@ -634,5 +637,34 @@ button:hover {
 @media screen and (max-width: 840px) {
   .customers_all {
     flex-direction: column;
+  }
+  .footer__contacts {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+  .bottom-menu {
+    display: inline-block;
+    width: calc(32.33333333%);
+  }
+  .bottom-menu h3 {
+    padding-top: 40px;
+  }
+  .footer__rights h3:first-child {
+    padding-top: 40px;
+  }
+  form {
+    margin: 0 auto;
+    padding-bottom: 40px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .garant__free,
+  .garant__ret,
+  .garant__sup {
+    width: 100%;
+  }
+  .garanty {
+    flex-direction: row;
   }
 }
